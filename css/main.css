@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  background-color: #C7BCA7;
+}
+#header {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.5em;
+  color: gray;
+}
+
+#postedSince {
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  height: 40px;
+  opacity: .75;
+}
+#posts {
+  width: 90%;
+  transform: translate(5%);
+}
+.post {
+  display: inline-block;
+  width: 250px;
+  height: 465px;
+  margin: 10px 10px -80px 10px;
+}
+.authorAvatar {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 1em 1em 0em 0em;
+}
+.post-description {
+  background-color: white;
+  width: 250px;
+  height: 110px;
+}
+.headline {
+  margin: auto auto auto 5px;
+}
+.headline-text{
+  font-weight: bold;
+  text-align: left;
+}
+.fa-heart {
+  position: relative;
+  right: 30px;
+  margin-left: 50px;
+}
+.text-right {
+  position: relative;
+  left: 100px;
+  margin-right: 50px;
+}
+.info {
+  display: inline-block;
+}
+.date-posted {
+  margin-left: 10px;
+}
